@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 
-const API = "";
+const API = import.meta.env.VITE_API_URL || "";
 
 const styles = {
   card: {
